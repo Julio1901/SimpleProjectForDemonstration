@@ -10,6 +10,11 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    
+    //02 - Crio instância dessas viewControllers
+    let firstVC = FirstViewController()
+    let secondVC = SecondViewController()
+    let thirdVC = ThirdViewController()
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
@@ -17,6 +22,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        
+        //03- Crio uma intância e passo um array de viewControllers
+        let navigationController = UINavigationController()
+        navigationController.viewControllers = [firstVC, secondVC, thirdVC]
+//        navigationController.popToRootViewController(animated: false)
+//        print(navigationController.viewControllers)
+        
+//        Ex como ir para a última viewController da pilha:
+//        if let lastVC = navigationController.viewControllers.last {
+//            navigationController.popToViewController(lastVC, animated: true)
+//        }
+        window?.rootViewController = navigationController
+        window?.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

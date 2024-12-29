@@ -1,0 +1,8 @@
+1 - É um container que gerencia uma ou mais child vire controllers
+2 - É uma Stack que vai empilhando views
+3 - Gerencia as viewControllers como um array ordenado
+4 - A primeira viewController da pilha é a RootViewController
+5 - Você adiciona ou remove itens da stack usando segues ou metodos da classe UINavigationController
+6 - Dá para remover a topmost da pilha usando o back button ou left-edge swipe gesture.
+7 -
+8 -
