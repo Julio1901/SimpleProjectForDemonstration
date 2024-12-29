@@ -31,9 +31,6 @@ class ThirdViewController: UIViewController {
     
     @objc func switchToNewNavigation() {
 
-
-  
-
         let fourthViewController = FourthViewController()
         let fifthViewController = FifthViewController()
         let sixthViewController = SixthViewController()
