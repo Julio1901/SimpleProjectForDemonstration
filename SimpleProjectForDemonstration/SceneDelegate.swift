@@ -11,48 +11,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
-    
-    let tabViewControllerTwo = TabViewControllerTwo()
-    let tabViewControllerThree = TabViewControllerThree()
-    let tabViewControllerFour = TabViewControllerFour()
-    let tabViewControllerFive = TabViewControllerFive()
-    let tabViewControllerSix = TabViewControllerSix()
+
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
-
-        let tabBarController = UITabBarController()
-
         
-        let firstNav = UINavigationController(rootViewController: SixthViewController())
-        firstNav.pushViewController(FifthViewController(), animated: true)
-        firstNav.pushViewController(SecondViewController(), animated: true)
-        firstNav.pushViewController(ThirdViewController(), animated: true)
-        firstNav.pushViewController(FourthViewController(), animated: true)
-        firstNav.pushViewController(FifthViewController(), animated: true)
-        firstNav.pushViewController(SixthViewController(), animated: true)
-        firstNav.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
-        
-//        firstVC.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
-        tabViewControllerTwo.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 1)
-        tabViewControllerThree.tabBarItem = UITabBarItem(tabBarSystemItem: .downloads, tag: 2)
-        tabViewControllerFour.tabBarItem = UITabBarItem(tabBarSystemItem: .history, tag: 3)
-        tabViewControllerFive.tabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 4)
-        tabViewControllerSix.tabBarItem = UITabBarItem(tabBarSystemItem: .more, tag: 5)
-        
-        
-        
-        
-        
-        
-        
-        tabBarController.viewControllers = [firstNav, tabViewControllerTwo, tabViewControllerThree, tabViewControllerFour, tabViewControllerFive, tabViewControllerSix]
-        
-        
-        window?.rootViewController = tabBarController
+        let onboardingVC = OnboardingViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
+        window?.rootViewController = onboardingVC
         window?.makeKeyAndVisible()
     }
 

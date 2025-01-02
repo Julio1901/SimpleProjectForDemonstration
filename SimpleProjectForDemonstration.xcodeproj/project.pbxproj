@@ -14,17 +14,8 @@
 		F4073DDA2D187D4D0070F991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4073DD92D187D4D0070F991 /* Assets.xcassets */; };
 		F4073DDD2D187D4D0070F991 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F4073DDC2D187D4D0070F991 /* Base */; };
 		F45FD1472D1913A6007EA02B /* topics in Resources */ = {isa = PBXBuildFile; fileRef = F45FD1462D1913A6007EA02B /* topics */; };
-		F45FD14A2D19185B007EA02B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45FD1492D19185B007EA02B /* FirstViewController.swift */; };
-		F45FD14C2D19187A007EA02B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45FD14B2D19187A007EA02B /* SecondViewController.swift */; };
-		F45FD14E2D1918A6007EA02B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45FD14D2D1918A6007EA02B /* ThirdViewController.swift */; };
-		F45FD1502D191F6F007EA02B /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45FD14F2D191F6F007EA02B /* FourthViewController.swift */; };
-		F45FD1522D191F80007EA02B /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45FD1512D191F80007EA02B /* FifthViewController.swift */; };
-		F45FD1542D191F93007EA02B /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45FD1532D191F93007EA02B /* SixthViewController.swift */; };
-		F4CF40122D21BB8200B29756 /* TabViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CF40112D21BB8200B29756 /* TabViewControllerTwo.swift */; };
-		F4CF40142D21BBBC00B29756 /* TabViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CF40132D21BBBC00B29756 /* TabViewControllerThree.swift */; };
-		F4CF40162D21BBD300B29756 /* TabViewControllerFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CF40152D21BBD300B29756 /* TabViewControllerFour.swift */; };
-		F4CF40182D21BBE800B29756 /* TabViewControllerFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CF40172D21BBE800B29756 /* TabViewControllerFive.swift */; };
-		F4CF401A2D21BBFA00B29756 /* TabViewControllerSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CF40192D21BBFA00B29756 /* TabViewControllerSix.swift */; };
+		F4CF40202D22F17500B29756 /* OnboardingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CF401F2D22F17500B29756 /* OnboardingPageViewController.swift */; };
+		F4CF40222D22F1F400B29756 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CF40212D22F1F400B29756 /* OnboardingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,17 +28,8 @@
 		F4073DDC2D187D4D0070F991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4073DDE2D187D4D0070F991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F45FD1462D1913A6007EA02B /* topics */ = {isa = PBXFileReference; lastKnownFileType = text; path = topics; sourceTree = "<group>"; };
-		F45FD1492D19185B007EA02B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		F45FD14B2D19187A007EA02B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		F45FD14D2D1918A6007EA02B /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
-		F45FD14F2D191F6F007EA02B /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
-		F45FD1512D191F80007EA02B /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
-		F45FD1532D191F93007EA02B /* SixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
-		F4CF40112D21BB8200B29756 /* TabViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewControllerTwo.swift; sourceTree = "<group>"; };
-		F4CF40132D21BBBC00B29756 /* TabViewControllerThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewControllerThree.swift; sourceTree = "<group>"; };
-		F4CF40152D21BBD300B29756 /* TabViewControllerFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewControllerFour.swift; sourceTree = "<group>"; };
-		F4CF40172D21BBE800B29756 /* TabViewControllerFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewControllerFive.swift; sourceTree = "<group>"; };
-		F4CF40192D21BBFA00B29756 /* TabViewControllerSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewControllerSix.swift; sourceTree = "<group>"; };
+		F4CF401F2D22F17500B29756 /* OnboardingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageViewController.swift; sourceTree = "<group>"; };
+		F4CF40212D22F1F400B29756 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,17 +78,8 @@
 		F45FD1482D19184C007EA02B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				F45FD1492D19185B007EA02B /* FirstViewController.swift */,
-				F45FD14B2D19187A007EA02B /* SecondViewController.swift */,
-				F45FD14D2D1918A6007EA02B /* ThirdViewController.swift */,
-				F45FD14F2D191F6F007EA02B /* FourthViewController.swift */,
-				F45FD1512D191F80007EA02B /* FifthViewController.swift */,
-				F45FD1532D191F93007EA02B /* SixthViewController.swift */,
-				F4CF40112D21BB8200B29756 /* TabViewControllerTwo.swift */,
-				F4CF40132D21BBBC00B29756 /* TabViewControllerThree.swift */,
-				F4CF40152D21BBD300B29756 /* TabViewControllerFour.swift */,
-				F4CF40172D21BBE800B29756 /* TabViewControllerFive.swift */,
-				F4CF40192D21BBFA00B29756 /* TabViewControllerSix.swift */,
+				F4CF401F2D22F17500B29756 /* OnboardingPageViewController.swift */,
+				F4CF40212D22F1F400B29756 /* OnboardingViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -183,20 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4CF40202D22F17500B29756 /* OnboardingPageViewController.swift in Sources */,
 				F4073DD52D187D4B0070F991 /* HomeViewController.swift in Sources */,
-				F45FD1542D191F93007EA02B /* SixthViewController.swift in Sources */,
+				F4CF40222D22F1F400B29756 /* OnboardingViewController.swift in Sources */,
 				F4073DD12D187D4B0070F991 /* AppDelegate.swift in Sources */,
-				F4CF40122D21BB8200B29756 /* TabViewControllerTwo.swift in Sources */,
-				F4CF40162D21BBD300B29756 /* TabViewControllerFour.swift in Sources */,
 				F4073DD32D187D4B0070F991 /* SceneDelegate.swift in Sources */,
-				F45FD1502D191F6F007EA02B /* FourthViewController.swift in Sources */,
-				F45FD1522D191F80007EA02B /* FifthViewController.swift in Sources */,
-				F4CF40142D21BBBC00B29756 /* TabViewControllerThree.swift in Sources */,
-				F45FD14C2D19187A007EA02B /* SecondViewController.swift in Sources */,
-				F45FD14E2D1918A6007EA02B /* ThirdViewController.swift in Sources */,
-				F45FD14A2D19185B007EA02B /* FirstViewController.swift in Sources */,
-				F4CF40182D21BBE800B29756 /* TabViewControllerFive.swift in Sources */,
-				F4CF401A2D21BBFA00B29756 /* TabViewControllerSix.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
