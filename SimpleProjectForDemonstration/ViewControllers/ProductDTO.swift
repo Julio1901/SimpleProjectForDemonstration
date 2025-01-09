@@ -34,14 +34,6 @@ struct ProductDTO {
     mutating func changeName(name: String) {
         self.name = name
     }
-    
-    
-    init(id: Int, name: String, price: Double) {
-        self.id = id
-        print("Método customizado")
-        self.name = name
-        self.price = price
-    }
 }
 
 
